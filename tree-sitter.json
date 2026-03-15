@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "move",
+      "camelcase": "Move",
+      "title": "Move",
+      "scope": "source.move",
+      "file-types": [
+        "move"
+      ],
+      "injection-regex": "^move$",
+      "class-name": "TreeSitterMove"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Move grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Angelo",
+        "email": "12701614+0xangelo@users.noreply.github.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/0xangelo/tree-sitter-move"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
