@@ -10,7 +10,9 @@
         "move"
       ],
       "injection-regex": "^move$",
-      "class-name": "TreeSitterMove"
+      "class-name": "TreeSitterMove",
+      "highlights": "queries/highlights.scm",
+      "locals": "queries/locals.scm"
     }
   ],
   "metadata": {
