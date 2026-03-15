@@ -3072,10 +3072,6 @@
         {
           "type": "STRING",
           "value": "signer"
-        },
-        {
-          "type": "STRING",
-          "value": "bytearray"
         }
       ]
     },
@@ -6723,6 +6719,10 @@
         {
           "type": "SYMBOL",
           "name": "byte_string_literal"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "string_literal"
         }
       ]
     },
@@ -6848,6 +6848,10 @@
     "byte_string_literal": {
       "type": "PATTERN",
       "value": "b\"(\\\\.|[^\\\\\"])*\""
+    },
+    "string_literal": {
+      "type": "PATTERN",
+      "value": "\"(\\\\.|[^\\\\\"])*\""
     },
     "_module_identifier": {
       "type": "ALIAS",
